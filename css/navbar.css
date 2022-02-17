@@ -1,0 +1,19 @@
+.navbar {
+  top: 0;
+  font-size: 2rem;
+  background-color: var(--primary);
+  color: white;
+  width: 100%;
+  font-family: var(--font-heading);
+  font-weight: bold;
+  z-index: 99;
+}
+
+.navbar__right-container {
+  margin-left: auto;
+}
+
+.navbar__right-container .btn {
+  margin: 0;
+  padding: 0.5rem 1rem;
+}

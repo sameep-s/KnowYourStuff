@@ -1,0 +1,43 @@
+@import "./navbar.css";
+
+.container-main__content {
+  width: 90%;
+}
+
+.main__heading {
+  font-size: 4rem;
+  font-family: var(--font-heading);
+  font-weight: bolder;
+}
+
+.categories__heading {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  border-bottom: 0.1rem solid var(--dark);
+}
+
+.categories__container {
+  width: 100%;
+  flex-wrap: wrap;
+  border: 0.1rem solid var(--dark);
+  overflow-y: scroll;
+  justify-content: space-evenly;
+}
+
+.categories__container .card {
+  width: 25rem;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.card-buttons .btn {
+  font-size: 1.8rem;
+  padding: 0.5rem 2rem;
+}
+
+body .footer {
+  height: 25rem;
+  background-color: rgb(19, 18, 18);
+  color: white;
+  font-size: 8rem;
+  font-family: var(--font-heading);
+}
