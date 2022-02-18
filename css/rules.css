@@ -6,7 +6,6 @@
 .container__rules {
   width: 80rem;
   height: 60rem;
-  /* background-color: var(--primary-shade); */
   border: 0.1rem solid var(--darker);
   border-radius: 2rem;
 }
