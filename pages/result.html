@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Screen</title>
+    <link rel="stylesheet" href="../css/result.css" />
+    <link rel="stylesheet" href="https://aphro-css.netlify.app/css/aphro.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar flex pos-stick a-item-center p-2">
+      <div class="navbar__left-container flex a-item-center jc-center">
+        <a href="#">KnowYourStuff</a>
+      </div>
+      <div class="navbar__right-container flex a-item-center">
+        <button class="btn btn-default">Login</button>
+      </div>
+    </nav>
+    <!-- body main -->
+    <main class="quiz__wrapper flex jc-center p-2">
+      <div class="result__conatainter mt-4 p-2">
+        <div
+          class="result__conatainter__heading border_bottom txt-center pt-2 pb-2 h-3 txt-bold"
+        >
+          Results
+        </div>
+
+        <div class="result__summary_container">
+          <div class="summary__item mt-1 mb-1 pt-1 pb-1 h-5 flex">
+            <div class="summary__item_label">Total Questions</div>
+            <div class="summary__item_value">5</div>
+          </div>
+          <div class="summary__item mt-1 mb-1 pt-1 pb-1 h-5 flex">
+            <div class="summary__item_label">Answered Correctly</div>
+            <div class="summary__item_value">5</div>
+          </div>
+          <div class="summary__item mt-1 mb-1 pt-1 pb-1 h-5 flex border_bottom">
+            <div class="summary__item_label">Wrong Answers</div>
+            <div class="summary__item_value">5</div>
+          </div>
+
+          <div class="summary__item mt-1 mb-1 pt-1 pb-1 h-5 flex border_bottom">
+            <div class="summary__item_label">Final Score</div>
+            <div class="summary__item_value">5</div>
+          </div>
+        </div>
+
+        <div class="result__btn_container flex">
+          <span><button class="btn btn-primary">Homepage</button></span>
+          <span class="btn-end"
+            ><button class="btn btn-primary">Retake Quiz</button></span
+          >
+        </div>
+      </div>
+    </main>
+    <!-- <footer class="footer flex a-item-center jc-center">@KnowYourStuff</footer> -->
+  </body>
+</html>

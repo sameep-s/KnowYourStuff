@@ -1,0 +1,7 @@
+body .footer {
+  height: 25rem;
+  background-color: rgb(19, 18, 18);
+  color: white;
+  font-size: 8rem;
+  font-family: var(--font-heading);
+}

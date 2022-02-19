@@ -1,0 +1,20 @@
+@import "./navbar.css";
+@import "./footer.css";
+
+.result__conatainter {
+  width: 50rem;
+  border: 0.1rem solid var(--dark);
+  border-radius: 1rem;
+}
+
+.summary__item_value {
+  margin-left: auto;
+}
+
+.border_bottom {
+  border-bottom: 0.2rem solid var(--darker);
+}
+
+.btn-end {
+  margin-left: auto;
+}
