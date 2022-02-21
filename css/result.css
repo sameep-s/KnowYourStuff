@@ -1,0 +1,36 @@
+@import "./quiz_screen.css";
+
+.result__conatainter {
+  width: 50rem;
+  border: 0.1rem solid var(--dark);
+  border-radius: 1rem;
+}
+
+.summary__item_value {
+  margin-left: auto;
+}
+
+.summary__element {
+  width: 80%;
+}
+
+.border_bottom {
+  border-bottom: 0.2rem solid var(--darker);
+}
+
+.btn-end {
+  margin-left: auto;
+}
+
+.results__summary {
+  width: 80rem;
+  height: 70rem;
+  overflow-y: scroll;
+  border: 0.2rem solid var(--dark);
+  border-radius: 2rem;
+}
+
+.summary__element {
+  border: 0.1rem solid var(--darker);
+  border-radius: 2rem;
+}
