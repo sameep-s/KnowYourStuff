@@ -11,7 +11,7 @@ KnowYourStuff is a online quiz application on which you can take some awesome qu
 Copy and paste the below command into you terminal in a desired repository to run this app locally.
 
 ```bash
-https://github.com/sameep-s/KnowYourStuff.git
+git clone https://github.com/sameep-s/KnowYourStuff.git
 ```
 
 # Features
