@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Screen</title>
+    <link rel="stylesheet" href="../css/quiz_screen.css" />
+    <link rel="stylesheet" href="https://aphro-css.netlify.app/css/aphro.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar flex pos-stick a-item-center p-2">
+      <div class="navbar__left-container flex a-item-center jc-center">
+        <a href="#">KnowYourStuff</a>
+      </div>
+      <div class="navbar__right-container flex a-item-center">
+        <button class="btn btn-default">Login</button>
+      </div>
+    </nav>
+    <!-- body main -->
+    <main class="quiz__wrapper flex jc-center pt-2 pb-4">
+      <div class="quiz__container">
+        <div class="quiz__container_heading txt-center mt-2 h-4">
+          I don't play the odds, I play the man.
+        </div>
+        <div class="quiz__container__body">
+          <div class="quiz__body_heading flex mt-1 mb-1 p-2">
+            <div class="ques__number h-5">
+              <span class="txt-gray">Question</span>: 1/5
+            </div>
+            <div class="quiz__score h-5">Score: 0</div>
+          </div>
+
+          <div class="quiz__question txt-center mb-2">
+            Q) Harvey specter is considered new york's finest corporate
+            litigatin lawyer but what is his unusual middle name ?
+          </div>
+
+          <div
+            class="quiz__option__container flex jc-center flex-col a-item-center"
+          >
+            <div class="quiz__option txt-center p-2 mb-1 mt-1">Michael</div>
+
+            <div class="quiz__option txt-center p-2 mb-1 mt-1">Reginald</div>
+
+            <div class="quiz__option txt-center p-2 mb-1 mt-1">Brandon</div>
+          </div>
+
+          <div class="quiz__buttons flex mt-2 mb-2 pl-2 pr-2">
+            <span><button class="btn btn-primary">Skip Question</button></span>
+            <span class="quiz_btn_end"
+              ><button class="btn btn-danger">End Quiz</button></span
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer flex a-item-center jc-center">@KnowYourStuff</footer>
+  </body>
+</html>

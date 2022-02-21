@@ -1,0 +1,39 @@
+@import "./navbar.css";
+@import "./footer.css";
+
+.quiz__container {
+  width: 50rem;
+  background-color: white;
+  border-radius: 2rem;
+  border: 0.1rem solid var(--dark);
+}
+
+.quiz__score {
+  margin-left: auto;
+}
+
+.quiz__question {
+  font-size: 2rem;
+}
+
+.quiz__option {
+  font-size: 2rem;
+  width: 90%;
+  border: 0.1rem solid var(--dark);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.option__success {
+  background-color: var(--success);
+  color: white;
+}
+
+.option__wrong {
+  background-color: var(--danger);
+  color: white;
+}
+
+.quiz_btn_end {
+  margin-left: auto;
+}
